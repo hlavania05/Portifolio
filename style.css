@@ -7,7 +7,10 @@
     background-color : #081b29;
 }
 body{
+<<<<<<< HEAD
     min-height : 100vh;
+=======
+>>>>>>> 12676b6 (Added Docker file)
     color : white;
 }
 /* ----------------------------------------Header---------------------------------------- */
@@ -24,12 +27,18 @@ header{
     z-index : 100;  
 }
 .logo{
+<<<<<<< HEAD
     font-size : 2rem;
+=======
+    position: relative;
+    font-size : 30px;
+>>>>>>> 12676b6 (Added Docker file)
     color : #fff;
     text-decoration: none;
     font-weight : 600;
     cursor : default;
     opacity : 0;
+<<<<<<< HEAD
     background-color :#051229;
     animation : slideRight 1s ease forwards;
 }
@@ -50,11 +59,26 @@ header{
 }
 #check{
     display : none;
+=======
+    animation : slideRight 1s ease forwards;
+}
+.navbar a{
+    display : inline-block;
+    font-size : 20px;
+    color : #fff;
+    text-decoration: none;
+    font-weight : 500;
+    margin-left:35px;
+    transition : .3s;
+    padding : 10px 15px;
+
+>>>>>>> 12676b6 (Added Docker file)
 }
 .navbar a:hover{
     background-color : #0ef;
     color : #081b29;
     box-shadow : 0 0 5px cyan, 0 0 25px cyan;
+<<<<<<< HEAD
     padding : 1rem 1rem;
     border-radius : 2rem;
 }
@@ -64,6 +88,57 @@ header{
     cursor : pointer;
     display : none;
 
+=======
+    padding : 10px 15px;
+    border-radius : 30px;
+}
+/* ---------------------------------------------body ----------------------------------------------- */
+.home{
+    position : relative;
+    width : 100%;
+    justify-content: space-between;
+    height : 100vh;
+    background-color : #081b29;
+    display : flex;
+    align-items : center;
+    padding : 70px 10% 0;
+}
+.home-content{
+    max-width : 600px;
+}
+.home-content h3{
+    font-size : 32px;
+    font-weight : 700;
+    margin-bottom : 30px;
+}
+
+.home-content h3 span{
+    color : #0ef;
+}
+.home-content h1{
+    font-size : 56px;
+    font-weight : 700;
+    margin : -3px;
+}
+.home-content p{
+    font-size : 20px;
+}
+.btn-box{
+    display : inline-block;
+    padding : 12px 28px;
+    background : rgb(79, 205, 214);
+    border-radius : 70px;
+    font-size : 16px;
+    color : #081b29;
+    letter-spacing : 1px;
+    text-decoration : none;
+    font-weight : 700;
+    margin-top : 30px;
+    box-shadow : 0 0 5px cyan, 0 0 25px cyan;
+}
+.btn-box:hover{
+    box-shadow : 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+>>>>>>> 12676b6 (Added Docker file)
 }
 @keyframes slideRight {
     0%{
@@ -75,6 +150,7 @@ header{
         opacity : 1;
     }
 }
+<<<<<<< HEAD
 
 @media (max-width : 900px){
     .header{
@@ -178,6 +254,11 @@ header{
 .my-pic{
     width : 31rem;
     height : 31rem;
+=======
+.my-pic{
+    width : 500px;
+    height : 500px;
+>>>>>>> 12676b6 (Added Docker file)
     border-radius : 50%;
     background-size : cover;
     background-image: url("./pic1.jpg");
@@ -185,6 +266,7 @@ header{
 
 }
 
+<<<<<<< HEAD
 /* BREAKPOINTS */
 @media (max-width : 1387px){
     .home{
@@ -220,6 +302,9 @@ header{
     }
 }
 /* ------------------------------------About page------------------------------------- */
+=======
+/* -------------------------------------------About Section-------------------------------------------- */
+>>>>>>> 12676b6 (Added Docker file)
 
 .about{
     display : flex;
@@ -231,17 +316,27 @@ header{
     background-color : #081b29;
 }
 .about-text{
+<<<<<<< HEAD
     width : 43.5rem;
     margin-top : 3rem;
 }
 .about-text h2{
     font-size : 2.2rem;
     margin : 1rem;
+=======
+    width : 700px;
+    margin-top : 50px;
+}
+.about-text h2{
+    font-size : 35px;
+    margin : 15px;
+>>>>>>> 12676b6 (Added Docker file)
 }
 .about-text h2 span{
     color : #0ef;
 }
 .about-text h4{
+<<<<<<< HEAD
     font-size : 1.2rem;
     margin : 1rem;
 }
@@ -269,6 +364,21 @@ header{
         width : 26rem;
         height : 30rem;
     }
+=======
+    font-size : 20px;
+    margin : 15px;
+}
+.about-text p{
+    margin : 15px;
+    letter-spacing: 1.5px;
+}
+
+.about .my-pic{
+    margin-top : 150px;
+    width : 400px;
+    background-image : url("./pic2.jpg")
+
+>>>>>>> 12676b6 (Added Docker file)
 }
 
 /* -----------------------------------------------Skills--------------------------------------- */
@@ -276,18 +386,31 @@ header{
     display : flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height : 5rem;
     margin-bottom : 2rem;
 }
 .skill-tittle h1{
     font-size : 2.1rem;
+=======
+    height : 100px;
+    margin-bottom : 30px;
+}
+.skill-tittle h1{
+    font-size : 35px;
+>>>>>>> 12676b6 (Added Docker file)
 }
 .skill-tittle h1 span{
     color : #0ef;
 }
 .skills-sec1{
+<<<<<<< HEAD
     width : 60rem;
     height : 20rem;
+=======
+    width : 60%;
+    height : 350px;
+>>>>>>> 12676b6 (Added Docker file)
     margin : auto;
 }
 .box{
@@ -296,6 +419,7 @@ header{
     align-items: center;
 }
 .box_{
+<<<<<<< HEAD
     height : 0.9rem;
     background-color : #000;
     width : 40rem;
@@ -309,11 +433,32 @@ header{
     border-radius : 0.5rem;
     background-color: cyan;
     height : 100%;
+=======
+    height : 15px;
+    background-color : #000;
+    width : 650px;
+    border-radius : 8px;
+}
+.box span,.box_{
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+.progress{
+    border-radius : 8px;
+    background-color: cyan;
+    height : 100%;
+    transition-duration: 100vw;
+    transition-timing-function: linear;
+>>>>>>> 12676b6 (Added Docker file)
     display: flex;
     justify-content: center;
     align-items: center;
     color : #081b29;
+<<<<<<< HEAD
     font-size: 0.8rem;
+=======
+    font-size: 13px;
+>>>>>>> 12676b6 (Added Docker file)
     font-weight: bolder;
 
 }
@@ -326,6 +471,7 @@ header{
 
 
 .skill-site{
+<<<<<<< HEAD
     width : 40rem;
     display: flex;
     justify-content: space-evenly;
@@ -333,20 +479,38 @@ header{
     height : 4.3rem;
     margin : auto;
     margin-bottom : 7rem;
+=======
+    width :40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height : 70px;
+    margin : auto;
+    margin-bottom : 100px;
+>>>>>>> 12676b6 (Added Docker file)
 }
 img{
    height : 100%;
    width : 100%;
+<<<<<<< HEAD
    border-radius : 1.3rem;
 }
 .img{
     width : 4.5rem;
     height : 4.3rem;
+=======
+   border-radius : 20px;
+}
+.img{
+    width : 12%;
+    height : 100%;
+>>>>>>> 12676b6 (Added Docker file)
 }
 img:hover{
     box-shadow: 0 0 5px cyan, 0 0 25px cyan;;
 }
 
+<<<<<<< HEAD
 /* BREAKPOINTS */
 @media (max-width : 1387px){
     .skill-tittle{
@@ -380,6 +544,9 @@ img:hover{
         height : 3.8rem;
     }
 }
+=======
+
+>>>>>>> 12676b6 (Added Docker file)
 
 /* ---------------------------------------Contact Section------------------------------------- */
 .contact{
@@ -389,6 +556,7 @@ img:hover{
     gap : 2rem;
     padding-bottom : 6rem;
     width : 100%;
+<<<<<<< HEAD
     height : 37.5rem;
 }
 
@@ -407,11 +575,33 @@ img:hover{
 .contact-text{
     margin : 1rem;
     letter-spacing: 0.13rem;
+=======
+    background-color : #081b29;
+    height : 600px;
+}
+
+.contact-sec1{
+    width : 35%;
+    height : 90%;
+}
+.contact-sec1 h1{
+    font-size : 35px;
+    margin : 25px 15px; 
+}
+.contact-sec1 h4{
+    font-size : 20px;
+    margin : 15px;
+}
+.contact-text{
+    margin : 15px;
+    letter-spacing: 1.5px;
+>>>>>>> 12676b6 (Added Docker file)
 }
 .contact-sec1 h1 span{
     color : #0ef;
 }
 .contact-sec1 p{
+<<<<<<< HEAD
     font-size : 1rem;
     margin : 0.9rem;
 }
@@ -420,11 +610,22 @@ img:hover{
 }
 #mail{
     margin-top : 2rem;
+=======
+    font-size : 16px;
+    margin : 13px;
+}
+.contact-sec1 p span{
+    margin : 6px;
+}
+#mail{
+    margin-top : 30px;
+>>>>>>> 12676b6 (Added Docker file)
 }
 .icon{
     color : cyan;
 }
 .social-media{
+<<<<<<< HEAD
     margin : 1.3rem 0.8rem;
     height : 3rem;
 }
@@ -433,6 +634,16 @@ img:hover{
     margin : 0.8rem;
     font-size : 1.5rem;
     padding : 1rem;
+=======
+    margin : 20px 10px;
+    height : 50px;
+}
+
+.social-media i{
+    margin : 10px;
+    font-size : 25px;
+    padding : 14px;
+>>>>>>> 12676b6 (Added Docker file)
     border-radius : 50%;
 }
 .social-media i:hover{
@@ -441,6 +652,7 @@ img:hover{
     box-shadow : 0 0 5px cyan, 0 0 25px cyan; 
 }
 .form{
+<<<<<<< HEAD
     width : 29rem; 
 }
 .entry{
@@ -450,11 +662,23 @@ img:hover{
     padding : 0.5rem;
     border-radius : 0.7rem;
     font-size : 1rem;
+=======
+    width : 450px; 
+}
+.entry{
+    height : 40px;
+    width : 400px;
+    margin : 10px;
+    padding : 8px;
+    border-radius : 10px;
+    font-size:15px;
+>>>>>>> 12676b6 (Added Docker file)
     background-color: rgb(200, 208, 208);
     color : black;
     font-weight: 500;
 }
 #textarea{
+<<<<<<< HEAD
     height : 10rem;
 }
 .contact-sec2 .btn-box{
@@ -525,3 +749,18 @@ img:hover{
         width : 20rem;
     }
 }
+=======
+    height : 150px;
+}
+.contact-sec2 .btn-box{
+    margin-left : 35px;
+    width : 350px;
+}
+
+
+
+
+
+
+
+>>>>>>> 12676b6 (Added Docker file)

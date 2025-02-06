@@ -58,7 +58,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // If there are no validation errors, insert data into the database
     if (empty($nameErr) && empty($emailErr) && empty($messageErr)) {
+<<<<<<< HEAD
         $sql = "INSERT INTO contact_form (name, email, message) VALUES ('$name', '$email', '$message')";
+=======
+        $sql = "INSERT INTO your_table (name, email, message) VALUES ('$name', '$email', '$message')";
+>>>>>>> 12676b6 (Added Docker file)
 
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
